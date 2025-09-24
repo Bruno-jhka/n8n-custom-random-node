@@ -1,0 +1,26 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "description": "Um nó n8n customizado para gerar números aleatórios usando a API Random.org",
+  "main": "dist/nodes/Random/Random.node.js",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 \"nodes/**/*.svg\" dist/",
+    "dev": "tsc --watch"
+  },
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+  "n8n-core": "^1.85.4",
+  "n8n-workflow": "^1.85.4",
+  "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "copyfiles": "^2.4.1"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/nodes/Random/Random.node.js"
+    ]
+  }
+}
