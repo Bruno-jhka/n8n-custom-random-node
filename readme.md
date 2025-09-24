@@ -32,7 +32,7 @@ Siga os passos abaixo para configurar e executar o projeto localmente.
 
 **1. Clone o Repositório**
 ```bash
-git clone [https://github.com/Bruno-jhka/n8n-custom-random-node.git]
+git clone [https://github.com/Bruno-jhka/n8n-custom-random-node.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
 cd SEU_REPOSITORIO
 ```
 
